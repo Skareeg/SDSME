@@ -1,0 +1,414 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="about" xml:space="preserve">
+    <value>Acerca de...</value>
+  </data>
+  <data name="building" xml:space="preserve">
+    <value>Edificio </value>
+  </data>
+  <data name="buildingsFile" xml:space="preserve">
+    <value>Archivos de edificios (*.bld)|*.bld</value>
+  </data>
+  <data name="diamond" xml:space="preserve">
+    <value>Juego: Pokémon Diamante </value>
+  </data>
+  <data name="embeddedTextures" xml:space="preserve">
+    <value>Las texturas embedidas se han eliminado automáticamente</value>
+  </data>
+  <data name="eventList" xml:space="preserve">
+    <value>Evento </value>
+  </data>
+  <data name="exportBuildings" xml:space="preserve">
+    <value>Exportar sección de edificios como...</value>
+  </data>
+  <data name="exportModel" xml:space="preserve">
+    <value>Exportar sección de modelo 3D como...</value>
+  </data>
+  <data name="exportModelBld" xml:space="preserve">
+    <value>Exportar modelo 3D como...</value>
+  </data>
+  <data name="exportMove" xml:space="preserve">
+    <value>Exportar sección de permisos como...</value>
+  </data>
+  <data name="exportTerrain" xml:space="preserve">
+    <value>Exportar sección de terreno como...</value>
+  </data>
+  <data name="exportTileset" xml:space="preserve">
+    <value>Exportar tileset como...</value>
+  </data>
+  <data name="extractPackage" xml:space="preserve">
+    <value>Descomprimiendo paquetes...</value>
+  </data>
+  <data name="fra" xml:space="preserve">
+    <value>(FRA)</value>
+  </data>
+  <data name="furniture" xml:space="preserve">
+    <value>Mueble </value>
+  </data>
+  <data name="ger" xml:space="preserve">
+    <value>(GER)</value>
+  </data>
+  <data name="headersFound" xml:space="preserve">
+    <value>Headers encontrados: </value>
+  </data>
+  <data name="heartgold" xml:space="preserve">
+    <value>Juego: Pokémon Oro HeartGold </value>
+  </data>
+  <data name="importBuildings" xml:space="preserve">
+    <value>Por favor seleccione un archivo de edificios para importar</value>
+  </data>
+  <data name="importModel" xml:space="preserve">
+    <value>Por favor seleccione un modelo 3D para importar</value>
+  </data>
+  <data name="importModelFile" xml:space="preserve">
+    <value>Archivos de modelo 3D de Nintendo DS (*.nsbmd)|*.nsbmd</value>
+  </data>
+  <data name="importMove" xml:space="preserve">
+    <value>Por favor seleccione un archivo de permisos para importar</value>
+  </data>
+  <data name="importTerrain" xml:space="preserve">
+    <value>Por favor seleccione un archivo de terreno para importar</value>
+  </data>
+  <data name="importTileset" xml:space="preserve">
+    <value>Importar tileset...</value>
+  </data>
+  <data name="invalidFile" xml:space="preserve">
+    <value>Archivo erróneo. Operación cancelada.</value>
+  </data>
+  <data name="ita" xml:space="preserve">
+    <value>(ITA)</value>
+  </data>
+  <data name="jap" xml:space="preserve">
+    <value>(JAP)</value>
+  </data>
+  <data name="kor" xml:space="preserve">
+    <value>(KOR)</value>
+  </data>
+  <data name="loadingHeaders" xml:space="preserve">
+    <value>Cargando headers...</value>
+  </data>
+  <data name="loadingROM" xml:space="preserve">
+    <value>Cargando ROM...</value>
+  </data>
+  <data name="mapSaved" xml:space="preserve">
+    <value>El mapa se ha guardado con éxito</value>
+  </data>
+  <data name="matrix" xml:space="preserve">
+    <value>Matriz </value>
+  </data>
+  <data name="matrixSaved" xml:space="preserve">
+    <value>La matriz se ha guardado con éxito</value>
+  </data>
+  <data name="modelFile" xml:space="preserve">
+    <value>Archivos de modelo 3D de Nintendo DS (*.nsbmd)|*.nsbmd|Archivos OBJ de Wavefront (*.obj)|*.obj</value>
+  </data>
+  <data name="moveFile" xml:space="preserve">
+    <value>Archivos de permisos (*.per)|*.per</value>
+  </data>
+  <data name="ndsROM" xml:space="preserve">
+    <value>Archivos ROM de Nintendo DS (*.nds)|*.nds</value>
+  </data>
+  <data name="overworld" xml:space="preserve">
+    <value>Overworld </value>
+  </data>
+  <data name="pearl" xml:space="preserve">
+    <value>Juego: Pokémon Perla </value>
+  </data>
+  <data name="platinum" xml:space="preserve">
+    <value>Juego: Pokémon Platino </value>
+  </data>
+  <data name="readingMap" xml:space="preserve">
+    <value>Leyendo datos del mapa...</value>
+  </data>
+  <data name="ready" xml:space="preserve">
+    <value>Listo</value>
+  </data>
+  <data name="romSaveTitle" xml:space="preserve">
+    <value>Guardar juego actual como...</value>
+  </data>
+  <data name="savingROM" xml:space="preserve">
+    <value>Guardando ROM...</value>
+  </data>
+  <data name="selectModel" xml:space="preserve">
+    <value>Por favor seleccione un modelo 3D para importar...</value>
+  </data>
+  <data name="selectROM" xml:space="preserve">
+    <value>Por favor seleccione un ROM de Pokémon de la IV o la V Generación válido</value>
+  </data>
+  <data name="soulsilver" xml:space="preserve">
+    <value>Juego: Pokémon Plata SoulSilver </value>
+  </data>
+  <data name="spa" xml:space="preserve">
+    <value>(ESP)</value>
+  </data>
+  <data name="weather" xml:space="preserve">
+    <value>Clima</value>
+  </data>
+  <data name="camera" xml:space="preserve">
+    <value>Cámara</value>
+  </data>
+  <data name="nameStyle" xml:space="preserve">
+    <value>Estilo del nombre</value>
+  </data>
+  <data name="flags" xml:space="preserve">
+    <value>Flags</value>
+  </data>
+  <data name="nameFrame" xml:space="preserve">
+    <value>Borde del nombre</value>
+  </data>
+  <data name="events" xml:space="preserve">
+    <value>Eventos</value>
+  </data>
+  <data name="name" xml:space="preserve">
+    <value>Nombre</value>
+  </data>
+  <data name="followMode" xml:space="preserve">
+    <value>Modo de paseo</value>
+  </data>
+  <data name="writingHeaders" xml:space="preserve">
+    <value>Escribiendo headers...</value>
+  </data>
+  <data name="headersSaved" xml:space="preserve">
+    <value>Los headers se han guardado con éxito</value>
+  </data>
+  <data name="readingMatrix" xml:space="preserve">
+    <value>Leyendo datos de la matriz...</value>
+  </data>
+  <data name="mapFiles" xml:space="preserve">
+    <value>Archivos de mapa</value>
+  </data>
+  <data name="mapHeaders" xml:space="preserve">
+    <value>Headers</value>
+  </data>
+  <data name="sureQuit" xml:space="preserve">
+    <value>Seguro que quieres salir? Los datos no guardados en el ROM se perderán permanentemente.</value>
+  </data>
+  <data name="terrainFile" xml:space="preserve">
+    <value>Archivos de terreno (*.bdhc)|*.bdhc</value>
+  </data>
+  <data name="text" xml:space="preserve">
+    <value>Texto </value>
+  </data>
+  <data name="tileset" xml:space="preserve">
+    <value>Tileset </value>
+  </data>
+  <data name="tilesetError" xml:space="preserve">
+    <value>El archivo no es un tileset válido</value>
+  </data>
+  <data name="tilesetFile" xml:space="preserve">
+    <value>Archivos de texturas de Nintendo DS (*.nsbtx)|*.nsbtx</value>
+  </data>
+  <data name="trigger" xml:space="preserve">
+    <value>Trigger </value>
+  </data>
+  <data name="unsupported" xml:space="preserve">
+    <value>ROM incorrecto</value>
+  </data>
+  <data name="untextured" xml:space="preserve">
+    <value>Sin texturas</value>
+  </data>
+  <data name="usa" xml:space="preserve">
+    <value>(USA/ENG)</value>
+  </data>
+  <data name="value255" xml:space="preserve">
+    <value>El valor tiene que ser un número entre 0 y 255</value>
+  </data>
+  <data name="value65535" xml:space="preserve">
+    <value>El valor tiene que ser un número entre 0 y 65535</value>
+  </data>
+  <data name="valueFF" xml:space="preserve">
+    <value>El valor tiene que ser un número hexadecimal entre 0 y FF</value>
+  </data>
+  <data name="warning" xml:space="preserve">
+    <value>Advertencia</value>
+  </data>
+  <data name="warp" xml:space="preserve">
+    <value>Warp </value>
+  </data>
+  <data name="wildPokemon" xml:space="preserve">
+    <value>Pokémon salvajes </value>
+  </data>
+  <data name="writingMatrix" xml:space="preserve">
+    <value>Escribiendo matriz...</value>
+  </data>
+  <data name="internalTextures" xml:space="preserve">
+    <value>Texturas embedidas</value>
+  </data>
+  <data name="script" xml:space="preserve">
+    <value>Script </value>
+  </data>
+  <data name="exportSSEQ" xml:space="preserve">
+    <value>Exportar secuencia musical como...</value>
+  </data>
+  <data name="sseqFilter" xml:space="preserve">
+    <value>Archivos de secuencia musical de NITRO Composer (*.sseq)|*.sseq</value>
+  </data>
+  <data name="black" xml:space="preserve">
+    <value>Juego: Pokémon Negro </value>
+  </data>
+  <data name="white" xml:space="preserve">
+    <value>Juego: Pokémon Blanco </value>
+  </data>
+  <data name="black2" xml:space="preserve">
+    <value>Juego: Pokémon Negro 2 </value>
+  </data>
+  <data name="white2" xml:space="preserve">
+    <value>Juego: Pokémon Blanco 2 </value>
+  </data>
+  <data name="valueFFFFFFFF" xml:space="preserve">
+    <value>El valor tiene que ser un número entre 0 y 4294967295</value>
+  </data>
+  <data name="lastROM" xml:space="preserve">
+    <value>Se han encontrado datos ya extraídos de este ROM. ¿Utilizarlos?</value>
+  </data>
+  <data name="black2b" xml:space="preserve">
+    <value>Black 2</value>
+  </data>
+  <data name="blackb" xml:space="preserve">
+    <value>Black</value>
+  </data>
+  <data name="diamondb" xml:space="preserve">
+    <value>Diamond</value>
+  </data>
+  <data name="heartgoldb" xml:space="preserve">
+    <value>HeartGold</value>
+  </data>
+  <data name="pearlb" xml:space="preserve">
+    <value>Pearl</value>
+  </data>
+  <data name="platinumb" xml:space="preserve">
+    <value>Platinum</value>
+  </data>
+  <data name="soulsilverb" xml:space="preserve">
+    <value>SoulSilver</value>
+  </data>
+  <data name="white2b" xml:space="preserve">
+    <value>White 2</value>
+  </data>
+  <data name="whiteb" xml:space="preserve">
+    <value>White</value>
+  </data>
+  <data name="areaDataList" xml:space="preserve">
+    <value>Area Data </value>
+  </data>
+  <data name="buildingPackList" xml:space="preserve">
+    <value>Building Pack </value>
+  </data>
+</root>

@@ -1,0 +1,981 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="tabPage1.Text" xml:space="preserve">
+    <value>Headers de Map</value>
+  </data>
+  <data name="tabPage2.Text" xml:space="preserve">
+    <value>Éditeur de Matrice</value>
+  </data>
+  <data name="tabPage6.Text" xml:space="preserve">
+    <value>Éditeur de Map</value>
+  </data>
+  <data name="tabPage7.Text" xml:space="preserve">
+    <value>Éditeur de texte</value>
+  </data>
+  <data name="tabPage11.Text" xml:space="preserve">
+    <value>Éditeur de Script</value>
+  </data>
+  <data name="genVheaderTab.Text" xml:space="preserve">
+    <value>Headers de Map</value>
+  </data>
+  <data name="tabPage15.Text" xml:space="preserve">
+    <value>Éditeur de Matrice</value>
+  </data>
+  <data name="tabPage17.Text" xml:space="preserve">
+    <value>Éditeur de Map</value>
+  </data>
+  <data name="button1.Text" xml:space="preserve">
+    <value>Sauvegarder</value>
+  </data>
+  <data name="Column18.HeaderText" xml:space="preserve">
+    <value>Nom interne</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="Column18.Width" type="System.Int32, mscorlib">
+    <value>70</value>
+  </data>
+  <data name="Column3.HeaderText" xml:space="preserve">
+    <value>Matrice</value>
+  </data>
+  <data name="Column3.Width" type="System.Int32, mscorlib">
+    <value>48</value>
+  </data>
+  <data name="Column7.HeaderText" xml:space="preserve">
+    <value>Textes</value>
+  </data>
+  <data name="Column7.Width" type="System.Int32, mscorlib">
+    <value>45</value>
+  </data>
+  <data name="Column8.HeaderText" xml:space="preserve">
+    <value>Musique (Jour)</value>
+  </data>
+  <data name="Column8.Width" type="System.Int32, mscorlib">
+    <value>82</value>
+  </data>
+  <data name="Column9.HeaderText" xml:space="preserve">
+    <value>Musique (Nuit)</value>
+  </data>
+  <data name="Column9.Width" type="System.Int32, mscorlib">
+    <value>81</value>
+  </data>
+  <data name="Column10.HeaderText" xml:space="preserve">
+    <value>Pokémon sauvages</value>
+  </data>
+  <data name="Column10.Width" type="System.Int32, mscorlib">
+    <value>107</value>
+  </data>
+  <data name="Column12.HeaderText" xml:space="preserve">
+    <value>Nom</value>
+  </data>
+  <data name="Column12.Width" type="System.Int32, mscorlib">
+    <value>35</value>
+  </data>
+  <data name="Column13.HeaderText" xml:space="preserve">
+    <value>Météo</value>
+  </data>
+  <data name="Column13.Width" type="System.Int32, mscorlib">
+    <value>43</value>
+  </data>
+  <data name="Column14.HeaderText" xml:space="preserve">
+    <value>Caméra</value>
+  </data>
+  <data name="Column15.HeaderText" xml:space="preserve">
+    <value>Style du nom</value>
+  </data>
+  <data name="Column15.Width" type="System.Int32, mscorlib">
+    <value>74</value>
+  </data>
+  <data name="Column33.HeaderText" xml:space="preserve">
+    <value>Pokémon sauvages</value>
+  </data>
+  <data name="Column33.Width" type="System.Int32, mscorlib">
+    <value>107</value>
+  </data>
+  <data name="button4.Text" xml:space="preserve">
+    <value>Sauvegarder</value>
+  </data>
+  <data name="tabPage4.Text" xml:space="preserve">
+    <value>Headers de Map</value>
+  </data>
+  <data name="tabPage3.Text" xml:space="preserve">
+    <value>Hauteur de la Bordure</value>
+  </data>
+  <data name="tabPage5.Text" xml:space="preserve">
+    <value>Fichiers de la Map</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="label3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>45, 13</value>
+  </data>
+  <data name="label3.Text" xml:space="preserve">
+    <value>Hauteur</value>
+  </data>
+  <data name="label2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>43, 13</value>
+  </data>
+  <data name="label2.Text" xml:space="preserve">
+    <value>Largeur</value>
+  </data>
+  <data name="groupBox1.Text" xml:space="preserve">
+    <value>Peindre</value>
+  </data>
+  <data name="numericUpDown3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>55, 20</value>
+  </data>
+  <data name="radioButton6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>64, 65</value>
+  </data>
+  <data name="radioButton6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>54, 17</value>
+  </data>
+  <data name="radioButton6.Text" xml:space="preserve">
+    <value>Herbe</value>
+  </data>
+  <data name="radioButton5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>64, 42</value>
+  </data>
+  <data name="radioButton4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>64, 19</value>
+  </data>
+  <data name="checkBox2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>55, 23</value>
+  </data>
+  <data name="checkBox2.Text" xml:space="preserve">
+    <value>Habiliter</value>
+  </data>
+  <data name="tabPage9.Text" xml:space="preserve">
+    <value>Vue 3D</value>
+  </data>
+  <data name="tabPage8.Text" xml:space="preserve">
+    <value>Infos Mouvements</value>
+  </data>
+  <data name="radioButton2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>604, 6</value>
+  </data>
+  <data name="radioButton2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>94, 17</value>
+  </data>
+  <data name="radioButton2.Text" xml:space="preserve">
+    <value>Hautes-herbes</value>
+  </data>
+  <data name="radioButton3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>499, 6</value>
+  </data>
+  <data name="radioButton3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>99, 17</value>
+  </data>
+  <data name="radioButton3.Text" xml:space="preserve">
+    <value>Aucun passage</value>
+  </data>
+  <data name="radioButton1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>405, 6</value>
+  </data>
+  <data name="radioButton1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>88, 17</value>
+  </data>
+  <data name="radioButton1.Text" xml:space="preserve">
+    <value>Passage libre</value>
+  </data>
+  <data name="label7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>20, 13</value>
+  </data>
+  <data name="label7.Text" xml:space="preserve">
+    <value>Z :</value>
+  </data>
+  <data name="label5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>20, 13</value>
+  </data>
+  <data name="label5.Text" xml:space="preserve">
+    <value>X :</value>
+  </data>
+  <data name="tabPage10.Text" xml:space="preserve">
+    <value>Editeur de Tileset</value>
+  </data>
+  <data name="label23.Text" xml:space="preserve">
+    <value>Bleu</value>
+  </data>
+  <data name="label22.Location" type="System.Drawing.Point, System.Drawing">
+    <value>225, 72</value>
+  </data>
+  <data name="label22.Size" type="System.Drawing.Size, System.Drawing">
+    <value>26, 13</value>
+  </data>
+  <data name="label22.Text" xml:space="preserve">
+    <value>Vert</value>
+  </data>
+  <data name="label18.Location" type="System.Drawing.Point, System.Drawing">
+    <value>212, 46</value>
+  </data>
+  <data name="label18.Size" type="System.Drawing.Size, System.Drawing">
+    <value>39, 13</value>
+  </data>
+  <data name="label18.Text" xml:space="preserve">
+    <value>Rouge</value>
+  </data>
+  <data name="radioButton8.Location" type="System.Drawing.Point, System.Drawing">
+    <value>68, 7</value>
+  </data>
+  <data name="radioButton8.Size" type="System.Drawing.Size, System.Drawing">
+    <value>71, 17</value>
+  </data>
+  <data name="radioButton8.Text" xml:space="preserve">
+    <value>Bâtiments</value>
+  </data>
+  <data name="tilesetExport.Text" xml:space="preserve">
+    <value>Exporter</value>
+  </data>
+  <data name="tilesetImport.Text" xml:space="preserve">
+    <value>Importer</value>
+  </data>
+  <data name="saveTilePNG.Text" xml:space="preserve">
+    <value>Sauver en PNG</value>
+  </data>
+  <data name="tilesetRemove.Text" xml:space="preserve">
+    <value>Retirer</value>
+  </data>
+  <data name="tilesetAdd.Text" xml:space="preserve">
+    <value>Ajouter</value>
+  </data>
+  <data name="pictureBox2.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGOfPtRkwAAACBjSFJNAAB6
+        JQAAgIMAAPn/AACA6QAAdTAAAOpgAAA6mAAAF2+SX8VGAAAACXBIWXMAAAsMAAALDAE/QCLIAAAAI0lE
+        QVQ4T2P4TwCcOXMGLx41YHgYgE0QGRMCowYMAwP+/wcAyhSvrpKTHncAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="button16.Text" xml:space="preserve">
+    <value>Sauvegarder</value>
+  </data>
+  <data name="button13.Text" xml:space="preserve">
+    <value>Éditeur de Bâtiments</value>
+  </data>
+  <data name="button11.Location" type="System.Drawing.Point, System.Drawing">
+    <value>72, 284</value>
+  </data>
+  <data name="button11.Text" xml:space="preserve">
+    <value>Importer</value>
+  </data>
+  <data name="button12.Location" type="System.Drawing.Point, System.Drawing">
+    <value>13, 284</value>
+  </data>
+  <data name="button12.Size" type="System.Drawing.Size, System.Drawing">
+    <value>54, 23</value>
+  </data>
+  <data name="button12.Text" xml:space="preserve">
+    <value>Exporter</value>
+  </data>
+  <data name="label9.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 268</value>
+  </data>
+  <data name="label9.Size" type="System.Drawing.Size, System.Drawing">
+    <value>101, 13</value>
+  </data>
+  <data name="label9.Text" xml:space="preserve">
+    <value>Propriétés du terrain</value>
+  </data>
+  <data name="button9.Text" xml:space="preserve">
+    <value>Importer</value>
+  </data>
+  <data name="button10.Size" type="System.Drawing.Size, System.Drawing">
+    <value>54, 23</value>
+  </data>
+  <data name="button10.Text" xml:space="preserve">
+    <value>Exporter</value>
+  </data>
+  <data name="label8.Size" type="System.Drawing.Size, System.Drawing">
+    <value>98, 13</value>
+  </data>
+  <data name="label8.Text" xml:space="preserve">
+    <value>Modèle de Map 3D</value>
+  </data>
+  <data name="button7.Text" xml:space="preserve">
+    <value>Importer</value>
+  </data>
+  <data name="button8.Size" type="System.Drawing.Size, System.Drawing">
+    <value>54, 23</value>
+  </data>
+  <data name="button8.Text" xml:space="preserve">
+    <value>Exporter</value>
+  </data>
+  <data name="label6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>53, 13</value>
+  </data>
+  <data name="label6.Text" xml:space="preserve">
+    <value>Bâtiments</value>
+  </data>
+  <data name="button6.Text" xml:space="preserve">
+    <value>Importer</value>
+  </data>
+  <data name="button5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>54, 23</value>
+  </data>
+  <data name="button5.Text" xml:space="preserve">
+    <value>Exporter</value>
+  </data>
+  <data name="label4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>94, 13</value>
+  </data>
+  <data name="label4.Text" xml:space="preserve">
+    <value>Infos Mouvements</value>
+  </data>
+  <data name="radioButton15.Size" type="System.Drawing.Size, System.Drawing">
+    <value>46, 17</value>
+  </data>
+  <data name="radioButton15.Text" xml:space="preserve">
+    <value>Map</value>
+  </data>
+  <data name="radioButton14.Location" type="System.Drawing.Point, System.Drawing">
+    <value>146, 13</value>
+  </data>
+  <data name="radioButton14.Size" type="System.Drawing.Size, System.Drawing">
+    <value>42, 17</value>
+  </data>
+  <data name="radioButton14.Text" xml:space="preserve">
+    <value>Jeu</value>
+  </data>
+  <data name="button20.Text" xml:space="preserve">
+    <value>Retirer dernière chaîne</value>
+  </data>
+  <data name="button18.Text" xml:space="preserve">
+    <value>Ajouter chaîne</value>
+  </data>
+  <data name="saveStringBtn.Text" xml:space="preserve">
+    <value>Sauvegarder</value>
+  </data>
+  <data name="button33.Text" xml:space="preserve">
+    <value>Sauvegarder</value>
+  </data>
+  <data name="tabPage13.Text" xml:space="preserve">
+    <value>Fonctions</value>
+  </data>
+  <data name="tabPage14.Text" xml:space="preserve">
+    <value>Mouvements</value>
+  </data>
+  <data name="button23.Text" xml:space="preserve">
+    <value>Retirer dernier header</value>
+  </data>
+  <data name="button24.Text" xml:space="preserve">
+    <value>Ajouter header</value>
+  </data>
+  <data name="button22.Text" xml:space="preserve">
+    <value>Sauvegarder</value>
+  </data>
+  <data name="dataGridViewTextBoxColumn22.HeaderText" xml:space="preserve">
+    <value>Matrice</value>
+  </data>
+  <data name="dataGridViewTextBoxColumn22.Width" type="System.Int32, mscorlib">
+    <value>48</value>
+  </data>
+  <data name="dataGridViewTextBoxColumn25.HeaderText" xml:space="preserve">
+    <value>Textes</value>
+  </data>
+  <data name="dataGridViewTextBoxColumn25.Width" type="System.Int32, mscorlib">
+    <value>45</value>
+  </data>
+  <data name="dataGridViewTextBoxColumn26.HeaderText" xml:space="preserve">
+    <value>Musique (Printemps)</value>
+  </data>
+  <data name="dataGridViewTextBoxColumn26.Width" type="System.Int32, mscorlib">
+    <value>108</value>
+  </data>
+  <data name="dataGridViewTextBoxColumn27.HeaderText" xml:space="preserve">
+    <value>Musique (Été)</value>
+  </data>
+  <data name="dataGridViewTextBoxColumn27.Width" type="System.Int32, mscorlib">
+    <value>78</value>
+  </data>
+  <data name="dataGridViewTextBoxColumn28.HeaderText" xml:space="preserve">
+    <value>Musique (Automne)</value>
+  </data>
+  <data name="dataGridViewTextBoxColumn28.Width" type="System.Int32, mscorlib">
+    <value>104</value>
+  </data>
+  <data name="dataGridViewTextBoxColumn29.HeaderText" xml:space="preserve">
+    <value>Musique (Hiver)</value>
+  </data>
+  <data name="dataGridViewTextBoxColumn29.Width" type="System.Int32, mscorlib">
+    <value>87</value>
+  </data>
+  <data name="dataGridViewTextBoxColumn30.HeaderText" xml:space="preserve">
+    <value>Pokémon sauvages</value>
+  </data>
+  <data name="dataGridViewTextBoxColumn30.Width" type="System.Int32, mscorlib">
+    <value>107</value>
+  </data>
+  <data name="dataGridViewTextBoxColumn31.HeaderText" xml:space="preserve">
+    <value>ID Map</value>
+  </data>
+  <data name="dataGridViewTextBoxColumn32.HeaderText" xml:space="preserve">
+    <value>ID Map parent</value>
+  </data>
+  <data name="dataGridViewTextBoxColumn32.Width" type="System.Int32, mscorlib">
+    <value>81</value>
+  </data>
+  <data name="Column46.HeaderText" xml:space="preserve">
+    <value>Météo</value>
+  </data>
+  <data name="Column46.Width" type="System.Int32, mscorlib">
+    <value>43</value>
+  </data>
+  <data name="dataGridViewTextBoxColumn34.HeaderText" xml:space="preserve">
+    <value>Caméra</value>
+  </data>
+  <data name="Column40.HeaderText" xml:space="preserve">
+    <value>Nom Icône</value>
+  </data>
+  <data name="button26.Text" xml:space="preserve">
+    <value>Sauvegarder</value>
+  </data>
+  <data name="tabPage18.Text" xml:space="preserve">
+    <value>Fichiers de la Map</value>
+  </data>
+  <data name="tabPage16.Text" xml:space="preserve">
+    <value>Headers de Map</value>
+  </data>
+  <data name="label12.Size" type="System.Drawing.Size, System.Drawing">
+    <value>45, 13</value>
+  </data>
+  <data name="label12.Text" xml:space="preserve">
+    <value>Hauteur</value>
+  </data>
+  <data name="label13.Size" type="System.Drawing.Size, System.Drawing">
+    <value>43, 13</value>
+  </data>
+  <data name="label13.Text" xml:space="preserve">
+    <value>Largeur</value>
+  </data>
+  <data name="checkBox5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 121</value>
+  </data>
+  <data name="checkBox5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>123, 17</value>
+  </data>
+  <data name="checkBox5.Text" xml:space="preserve">
+    <value>Donées supplément.</value>
+  </data>
+  <data name="groupBox2.Text" xml:space="preserve">
+    <value>Peindre</value>
+  </data>
+  <data name="numericUpDown6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>68, 27</value>
+  </data>
+  <data name="numericUpDown6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>42, 20</value>
+  </data>
+  <data name="checkBox3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>55, 23</value>
+  </data>
+  <data name="checkBox3.Text" xml:space="preserve">
+    <value>Habiliter</value>
+  </data>
+  <data name="tabPage19.Text" xml:space="preserve">
+    <value>Vue 3D</value>
+  </data>
+  <data name="tabPage20.Text" xml:space="preserve">
+    <value>Infos Mouvements</value>
+  </data>
+  <data name="radioButton11.Location" type="System.Drawing.Point, System.Drawing">
+    <value>642, 7</value>
+  </data>
+  <data name="radioButton11.Size" type="System.Drawing.Size, System.Drawing">
+    <value>56, 17</value>
+  </data>
+  <data name="radioButton11.Text" xml:space="preserve">
+    <value>Ombre</value>
+  </data>
+  <data name="radioButton10.Location" type="System.Drawing.Point, System.Drawing">
+    <value>550, 7</value>
+  </data>
+  <data name="radioButton10.Size" type="System.Drawing.Size, System.Drawing">
+    <value>86, 17</value>
+  </data>
+  <data name="radioButton10.Text" xml:space="preserve">
+    <value>Mouvements</value>
+  </data>
+  <data name="radioButton22.Location" type="System.Drawing.Point, System.Drawing">
+    <value>484, 7</value>
+  </data>
+  <data name="radioButton21.Location" type="System.Drawing.Point, System.Drawing">
+    <value>428, 7</value>
+  </data>
+  <data name="radioButton20.Location" type="System.Drawing.Point, System.Drawing">
+    <value>362, 7</value>
+  </data>
+  <data name="radioButton19.Location" type="System.Drawing.Point, System.Drawing">
+    <value>293, 7</value>
+  </data>
+  <data name="radioButton19.Size" type="System.Drawing.Size, System.Drawing">
+    <value>63, 17</value>
+  </data>
+  <data name="radioButton19.Text" xml:space="preserve">
+    <value>Hauteur</value>
+  </data>
+  <data name="radioButton9.Location" type="System.Drawing.Point, System.Drawing">
+    <value>163, 7</value>
+  </data>
+  <data name="radioButton16.Location" type="System.Drawing.Point, System.Drawing">
+    <value>227, 7</value>
+  </data>
+  <data name="tabPage21.Text" xml:space="preserve">
+    <value>Éditeur de Tilesets</value>
+  </data>
+  <data name="label24.Text" xml:space="preserve">
+    <value>Bleu</value>
+  </data>
+  <data name="label25.Location" type="System.Drawing.Point, System.Drawing">
+    <value>225, 72</value>
+  </data>
+  <data name="label25.Size" type="System.Drawing.Size, System.Drawing">
+    <value>26, 13</value>
+  </data>
+  <data name="label25.Text" xml:space="preserve">
+    <value>Vert</value>
+  </data>
+  <data name="label26.Location" type="System.Drawing.Point, System.Drawing">
+    <value>212, 46</value>
+  </data>
+  <data name="label26.Size" type="System.Drawing.Size, System.Drawing">
+    <value>39, 13</value>
+  </data>
+  <data name="label26.Text" xml:space="preserve">
+    <value>Rouge</value>
+  </data>
+  <data name="radioButton23.Size" type="System.Drawing.Size, System.Drawing">
+    <value>80, 17</value>
+  </data>
+  <data name="radioButton23.Text" xml:space="preserve">
+    <value>Bâtiments 2</value>
+  </data>
+  <data name="radioButton17.Size" type="System.Drawing.Size, System.Drawing">
+    <value>71, 17</value>
+  </data>
+  <data name="radioButton17.Text" xml:space="preserve">
+    <value>Bâtiments</value>
+  </data>
+  <data name="button25.Text" xml:space="preserve">
+    <value>Exporter</value>
+  </data>
+  <data name="button27.Text" xml:space="preserve">
+    <value>Importer</value>
+  </data>
+  <data name="button28.Text" xml:space="preserve">
+    <value>Sauver en PNG</value>
+  </data>
+  <data name="button29.Text" xml:space="preserve">
+    <value>Retirer</value>
+  </data>
+  <data name="button30.Text" xml:space="preserve">
+    <value>Ajouter</value>
+  </data>
+  <data name="pictureBox3.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGOfPtRkwAAACBjSFJNAAB6
+        JQAAgIMAAPn/AACA6QAAdTAAAOpgAAA6mAAAF2+SX8VGAAAACXBIWXMAAAsMAAALDAE/QCLIAAAAI0lE
+        QVQ4T2P4TwCcOXMGLx41YHgYgE0QGRMCowYMAwP+/wcAyhSvrpKTHncAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="button31.Text" xml:space="preserve">
+    <value>Sauvegarder</value>
+  </data>
+  <data name="button32.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 203</value>
+  </data>
+  <data name="button32.Size" type="System.Drawing.Size, System.Drawing">
+    <value>116, 23</value>
+  </data>
+  <data name="button32.Text" xml:space="preserve">
+    <value>Éditeur de Bâtiments</value>
+  </data>
+  <data name="button35.Location" type="System.Drawing.Point, System.Drawing">
+    <value>70, 258</value>
+  </data>
+  <data name="button35.Size" type="System.Drawing.Size, System.Drawing">
+    <value>55, 23</value>
+  </data>
+  <data name="button35.Text" xml:space="preserve">
+    <value>Importer</value>
+  </data>
+  <data name="button36.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 258</value>
+  </data>
+  <data name="button36.Size" type="System.Drawing.Size, System.Drawing">
+    <value>55, 23</value>
+  </data>
+  <data name="button36.Text" xml:space="preserve">
+    <value>Exporter</value>
+  </data>
+  <data name="label19.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 242</value>
+  </data>
+  <data name="label19.Size" type="System.Drawing.Size, System.Drawing">
+    <value>98, 13</value>
+  </data>
+  <data name="label19.Text" xml:space="preserve">
+    <value>Modèle de Map 3D</value>
+  </data>
+  <data name="button37.Location" type="System.Drawing.Point, System.Drawing">
+    <value>70, 174</value>
+  </data>
+  <data name="button37.Size" type="System.Drawing.Size, System.Drawing">
+    <value>55, 23</value>
+  </data>
+  <data name="button37.Text" xml:space="preserve">
+    <value>Importer</value>
+  </data>
+  <data name="button38.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 174</value>
+  </data>
+  <data name="button38.Size" type="System.Drawing.Size, System.Drawing">
+    <value>55, 23</value>
+  </data>
+  <data name="button38.Text" xml:space="preserve">
+    <value>Exporter</value>
+  </data>
+  <data name="label20.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 158</value>
+  </data>
+  <data name="label20.Size" type="System.Drawing.Size, System.Drawing">
+    <value>53, 13</value>
+  </data>
+  <data name="label20.Text" xml:space="preserve">
+    <value>Bâtiments</value>
+  </data>
+  <data name="button39.Location" type="System.Drawing.Point, System.Drawing">
+    <value>70, 92</value>
+  </data>
+  <data name="button39.Size" type="System.Drawing.Size, System.Drawing">
+    <value>55, 23</value>
+  </data>
+  <data name="button39.Text" xml:space="preserve">
+    <value>Importer</value>
+  </data>
+  <data name="button40.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 92</value>
+  </data>
+  <data name="button40.Size" type="System.Drawing.Size, System.Drawing">
+    <value>58, 23</value>
+  </data>
+  <data name="button40.Text" xml:space="preserve">
+    <value>Exporter</value>
+  </data>
+  <data name="label21.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 76</value>
+  </data>
+  <data name="label21.Size" type="System.Drawing.Size, System.Drawing">
+    <value>94, 13</value>
+  </data>
+  <data name="label21.Text" xml:space="preserve">
+    <value>Infos Mouvements</value>
+  </data>
+  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>30, 13</value>
+  </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>Jeu :</value>
+  </data>
+  <data name="fileToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>54, 20</value>
+  </data>
+  <data name="fileToolStripMenuItem.Text" xml:space="preserve">
+    <value>Fichier</value>
+  </data>
+  <data name="openToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>155, 22</value>
+  </data>
+  <data name="openToolStripMenuItem.Text" xml:space="preserve">
+    <value>Charger ROM...</value>
+  </data>
+  <data name="saveROMToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>155, 22</value>
+  </data>
+  <data name="saveROMToolStripMenuItem.Text" xml:space="preserve">
+    <value>Sauver ROM...</value>
+  </data>
+  <data name="quitToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>155, 22</value>
+  </data>
+  <data name="quitToolStripMenuItem.Text" xml:space="preserve">
+    <value>Quitter</value>
+  </data>
+  <data name="toolsToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>50, 20</value>
+  </data>
+  <data name="toolsToolStripMenuItem.Text" xml:space="preserve">
+    <value>Outils</value>
+  </data>
+  <data name="toolStripMenuItem2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>314, 22</value>
+  </data>
+  <data name="toolStripMenuItem2.Text" xml:space="preserve">
+    <value>Changer les couleurs de l'éditeur de Map</value>
+  </data>
+  <data name="editMapViewerColoursToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>314, 22</value>
+  </data>
+  <data name="editMapViewerColoursToolStripMenuItem.Text" xml:space="preserve">
+    <value>Changer les couleurs de l'éditeur de Map (5G)</value>
+  </data>
+  <data name="sPKPackagesToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>314, 22</value>
+  </data>
+  <data name="sPKPackagesToolStripMenuItem.Text" xml:space="preserve">
+    <value>Packages SPK</value>
+  </data>
+  <data name="helpToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>43, 20</value>
+  </data>
+  <data name="helpToolStripMenuItem.Text" xml:space="preserve">
+    <value>Aide</value>
+  </data>
+  <data name="toolStripMenuItem1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>122, 22</value>
+  </data>
+  <data name="toolStripMenuItem1.Text" xml:space="preserve">
+    <value>A propos</value>
+  </data>
+  <data name="toolStripStatusLabel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>28, 17</value>
+  </data>
+  <data name="toolStripStatusLabel1.Text" xml:space="preserve">
+    <value>Prêt</value>
+  </data>
+  <data name="button2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>96, 23</value>
+  </data>
+  <data name="button2.Text" xml:space="preserve">
+    <value>Charger ROM...</value>
+  </data>
+  <data name="button3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>96, 23</value>
+  </data>
+  <data name="button3.Text" xml:space="preserve">
+    <value>Sauver ROM...</value>
+  </data>
+  <data name="button15.Text" xml:space="preserve">
+    <value>Events</value>
+  </data>
+  <data name="pictureBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>122, 77</value>
+  </data>
+  <data name="button19.Text" xml:space="preserve">
+    <value>Pokémon sauvages</value>
+  </data>
+  <data name="button14.Text" xml:space="preserve">
+    <value>Dresseurs Pokémon</value>
+  </data>
+  <data name="button21.Text" xml:space="preserve">
+    <value>Liste de Fichiers de son</value>
+  </data>
+  <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAABAAIAEBAAAAAAIABoBAAAJgAAACAgAAAAACAAqBAAAI4EAAAoAAAAEAAAACAAAAABACAAAAAAAEAE
+        AAAAAAAAAAAAAAAAAAAAAAAArnc//5RKAP+USgD/lEoA/5RKAP+USgD/lEoA/5RKAP+USgD/lEoA/283
+        AP9KJQD/GDQ8/283AP+USgD/rnc//5RKAP+sWhD/rFoQ/7JgFP+4Zhj/y3sk/9GDKP/Rgyj/gFks/ygo
+        KP8yanr/MGRw/zR2hv85NCj/rFoQ/5RKAP+USgD/rFoQ/7JgFP/LeyT/14ss/+6oRf+wezX/mHM9/5hz
+        Pf8YFhT/SmiS/zJqev80bHz/MDJU/6xaEP+USgD/lEoA/7JgFP/LeyT/5p47/8ONQf9JMRj/cGxo/5iU
+        j/+YlI//QlR2/4COsP9o2Pj/cqa2/4So7P9WLQj/lEoA/5RKAP+4Zhj/14ss/8ONQf89NzD/09fX//b/
+        ///2////uL+//y5ibv9o2Pj/aNj4/2jY+P9YuNL/NSwc/5RKAP+USgD/y3sk/+6oRf9JMRj/09fX//b/
+        ///4////n6Kg/yAgIP9ezOr/RJas/2jY+P9Elqz/aNj4/0qAjv81IhD/lEoA/9GDKP+wezX/cGxo//b/
+        ///4////ZF5X/3BsaP8gICD/SmZu/0dVV/+Pq6//YHZ3/ypGTv9AQED/NSIQ/5RKAP/Rgyj/mHM9/2Je
+        V/+TlI//bmxo/3BsaP/2////e39//0xKR/9ubGj/k5SP/2JeV/9YQyb/EBAQ/0olAP+USgD/0YMo/5hz
+        Pf8kN1X/GEWL/xg3Zv9wbGj/9v////b///9wbGj/GDdm/xhFi/8kN1X/mHM9/9GDKP+USgD/lEoA/9GD
+        KP+wezX/GClX/wBh9v8AV+3/JC1N/3BsaP9wbGj/JC1N/wBX7f8AYfb/GClX/7B7Nf/Rgyj/lEoA/5RK
+        AP/LeyT/7qhF/0kxGP8AU9H/AGH2/wBX7f8MRZv/DEWb/wBX7f8AYfb/AFPR/0kxGP/uqEX/y3sk/5RK
+        AP+USgD/uGYY/9eLLP/DjUH/JC1N/wBT0f8AYfb/AGH2/wBh9v8AYfb/AFPR/yQtTf/DjUH/14ss/7hm
+        GP+USgD/lEoA/7JgFP/LeyT/5p47/8ONQf9JMRj/GClX/xhFi/8YRYv/GClX/0kxGP/DjUH/5p47/8t7
+        JP+yYBT/lEoA/5RKAP+sWhD/smAU/8t7JP/Xiyz/7qhF/7B7Nf+Ycz3/mHM9/7B7Nf/uqEX/14ss/8t7
+        JP+yYBT/rFoQ/5RKAP+USgD/rFoQ/6xaEP+yYBT/uGYY/8t7JP/Rgyj/0YMo/9GDKP/Rgyj/y3sk/7hm
+        GP+yYBT/rFoQ/6xaEP+USgD/rnc//5RKAP+USgD/lEoA/5RKAP+USgD/lEoA/5RKAP+USgD/lEoA/5RK
+        AP+USgD/lEoA/5RKAP+USgD/rnc//wAA//8AAP//AAD//wAA//8AAP//AAD//wAA//8AAP//AAD//wAA
+        //8AAP//AAD//wAA//8AAP//AAD//wAA//8oAAAAIAAAAEAAAAABACAAAAAAAIAQAAAAAAAAAAAAAAAA
+        AAAAAAAA/////5RKAP+USgD/lEoA/5RKAP+USgD/lEoA/5RKAP+USgD/lEoA/5RKAP+USgD/lEoA/5RK
+        AP+USgD/lEoA/5RKAP+USgD/lEoA/5RKAP+USgD/lEoA/5RKAP+USgD/AAAA/wAAAP+USgD/lEoA/5RK
+        AP+USgD/lEoA//////+USgD/lEoA/5RKAP+USgD/lEoA/5RKAP+USgD/lEoA/5RKAP+USgD/lEoA/5RK
+        AP+USgD/lEoA/5RKAP+USgD/lEoA/5RKAP+USgD/lEoA/5RKAP8AAAD/AAAA/wAAAP8oWGD/OHiQ/wAA
+        AP+USgD/lEoA/5RKAP+USgD/lEoA/5RKAP+USgD/rFoQ/6xaEP+sWhD/rFoQ/6xaEP+sWhD/rFoQ/6xa
+        EP/FcyD/xXMg/8VzIP/FcyD/xXMg/8VzIP/FcyD/MDAw/zAwMP8wMDD/AAAA/yhYYP9AqMD/QKjA/0Co
+        wP8oWGD/AAAA/6xaEP+sWhD/rFoQ/5RKAP+USgD/lEoA/5RKAP+sWhD/rFoQ/6xaEP+sWhD/rFoQ/8Vz
+        IP/FcyD/xXMg/8VzIP/elDH/3pQx/96UMf/elDH/3pQx/96UMf8wMDD/QEBA/wAAAP84eJD/aNj4/wAA
+        AP9AQED/AAAA/2jY+P84eJD/AAAA/6xaEP+sWhD/lEoA/5RKAP+USgD/lEoA/6xaEP+sWhD/rFoQ/6xa
+        EP/FcyD/xXMg/8VzIP/elDH/3pQx/96UMf//vVr//71a//+9Wv//vVr//71a//+9Wv8wMDD/AAAA/zh4
+        kP8AAAD/AAAA/yhYYP8AAAD/AAAA/zh4kP8AAAD/rFoQ/6xaEP+USgD/lEoA/5RKAP+USgD/rFoQ/6xa
+        EP+sWhD/xXMg/8VzIP/elDH/3pQx/96UMf//vVr//71a/5RKAP8xKSD/MSkg/zEpIP8xKSD/MSkg/zEp
+        IP8AAAD/iFDA/2jY+P9o2Pj/OHiQ/2jY+P9o2Pj/iFDA/wAAAP+sWhD/rFoQ/5RKAP+USgD/lEoA/5RK
+        AP+sWhD/rFoQ/8VzIP/FcyD/3pQx/96UMf//vVr//71a/5RKAP8xKSD/MSkg/zEpIP8xKSD/MSkg/zEp
+        IP8xKSD/AAAA/6B44P+geOD/AAAA/2jY+P9o2Pj/aNj4/wAAAP+geOD/oHjg/wAAAP+sWhD/lEoA/5RK
+        AP+USgD/lEoA/6xaEP/FcyD/xXMg/96UMf/elDH//71a/96UMf8xKSD/MSkg/zEpIP9iYWL/////////
+        //////////////////8AAAD/aNj4/2jY+P/46Oj/aNj4/2jY+P9o2Pj/+Ojo/2jY+P9o2Pj/AAAA/6xa
+        EP+USgD/lEoA/5RKAP+USgD/rFoQ/8VzIP/FcyD/3pQx//+9Wv/elDH/MSkg/zEpIP9iYWL///////b/
+        ///2////9v////b////2////9v///yhYYP9o2Pj/aNj4/2jY+P9o2Pj/aNj4/2jY+P9o2Pj/aNj4/2jY
+        +P8oWGD/rFoQ/5RKAP+USgD/lEoA/5RKAP+sWhD/xXMg/96UMf/elDH//71a/zEpIP8xKSD/YmFi//b/
+        ///2////9v////b////2////9v////b///8AAAD/AAAA/yhYYP9o2Pj/aNj4/2jY+P9o2Pj/aNj4/2jY
+        +P9o2Pj/KFhg/wAAAP8AAAD/lEoA/5RKAP+USgD/lEoA/8VzIP/FcyD/3pQx//+9Wv+USgD/MSkg/2Jh
+        Yv/2////9v////b////2////9v////b////2////AAAA/0BAQP9AqMD/aNj4/2jY+P9AqMD/aNj4/2jY
+        +P9o2Pj/QKjA/2jY+P9o2Pj/QKjA/0BAQP8AAAD/lEoA/5RKAP+USgD/xXMg/96UMf/elDH//71a/zEp
+        IP8xKSD///////b////2////9v////b/////////YmFi/zEpIP8AAAD/QEBA/2jY+P9o2Pj/aNj4/wAA
+        AP9o2Pj/aNj4/2jY+P8AAAD/aNj4/2jY+P9o2Pj/QEBA/0BAQP8AAAD/lEoA/5RKAP/FcyD/3pQx//+9
+        Wv+USgD/MSkg/2JhYv/2////9v////b////2/////////zEpIP8xKSD/MSkg/wAAAP9AQED/QEBA/2jY
+        +P8AAAD/KFhg/yhYYP8oWGD/KFhg/yhYYP8AAAD/aNj4/0BAQP9AQED/AAAA/5RKAP+USgD/lEoA/8Vz
+        IP/elDH//71a/zEpIP8xKSD///////b////2////9v////////8xKSD/MSkg/2JhYv//////AAAA/0BA
+        QP9AQED/QEBA/wAAAP/2////9v////b/////////MSkg/wAAAP9AQED/QEBA/0BAQP9AQED/AAAA/5RK
+        AP+USgD/xXMg/96UMf//vVr/MSkg/zEpIP/2////9v////b////2////YmFi/zEpIP9iYWL/9v////b/
+        //8AAAD/AAAA/wAAAP8AAAD/YmFi//b////2////9v////b///8xKSD/MSkg/wAAAP9AQED/AAAA/wAA
+        AP8AAAD/lEoA/5RKAP/FcyD/3pQx//+9Wv8xKSD/MSkg/zEpIP8xKSD/MSkg/zEpIP8xKSD/MSkg////
+        ///2////9v////b////2/////////zEpIP8xKSD/MSkg/zEpIP8xKSD/MSkg/zEpIP8xKSD//71a/wAA
+        AP8AAAD/lEoA/5RKAP+USgD/lEoA/8VzIP/elDH//71a/zEpIP8xKSD/MSkg/zEpIP8xKSD/MSkg/zEp
+        IP8xKSD///////b////2////9v////b/////////MSkg/zEpIP8xKSD/MSkg/zEpIP8xKSD/MSkg/zEp
+        IP//vVr/3pQx/8VzIP+USgD/lEoA/5RKAP+USgD/xXMg/96UMf//vVr/MSkg/zEpIP8AYfb/AGH2/wBh
+        9v8AYfb/ACli/zEpIP9iYWL/9v////b////2////9v///2JhYv8xKSD/ACli/wBh9v8AYfb/AGH2/wBh
+        9v8xKSD/MSkg//+9Wv/elDH/xXMg/5RKAP+USgD/lEoA/5RKAP/FcyD/3pQx//+9Wv8xKSD/MSkg/wAp
+        vf8AYfb/AGH2/wBh9v8AOdX/MSkg/zEpIP9iYWL///////////9iYWL/MSkg/zEpIP8AOdX/AGH2/wBh
+        9v8AYfb/ACm9/zEpIP8xKSD//71a/96UMf/FcyD/lEoA/5RKAP+USgD/lEoA/8VzIP/elDH//71a/5RK
+        AP8xKSD/ACli/wBh9v8AYfb/AGH2/wBh9v8AOdX/MSkg/zEpIP8xKSD/MSkg/zEpIP8xKSD/ADnV/wBh
+        9v8AYfb/AGH2/wBh9v8AKWL/MSkg/5RKAP//vVr/3pQx/8VzIP+USgD/lEoA/5RKAP+USgD/xXMg/96U
+        Mf/elDH//71a/zEpIP8xKSD/AGH2/wBh9v8AYfb/AGH2/wBh9v8AOdX/ACli/zEpIP8xKSD/ACli/wA5
+        1f8AYfb/AGH2/wBh9v8AYfb/AGH2/zEpIP8xKSD//71a/96UMf/elDH/xXMg/5RKAP+USgD/lEoA/5RK
+        AP/FcyD/xXMg/96UMf//vVr/lEoA/zEpIP8AKWL/AGH2/wBh9v8AYfb/AGH2/wBh9v8AYfb/AGH2/wBh
+        9v8AYfb/AGH2/wBh9v8AYfb/AGH2/wBh9v8AKWL/MSkg/5RKAP//vVr/3pQx/8VzIP/FcyD/lEoA/5RK
+        AP+USgD/lEoA/6xaEP/FcyD/3pQx/96UMf//vVr/MSkg/zEpIP8AOdX/AGH2/wBh9v8AYfb/AGH2/wBh
+        9v8AYfb/AGH2/wBh9v8AYfb/AGH2/wBh9v8AYfb/ADnV/zEpIP8xKSD//71a/96UMf/elDH/xXMg/6xa
+        EP+USgD/lEoA/5RKAP+USgD/rFoQ/8VzIP/FcyD/3pQx//+9Wv/elDH/MSkg/zEpIP8AKWL/AGH2/wBh
+        9v8AYfb/AGH2/wBh9v8AYfb/AGH2/wBh9v8AYfb/AGH2/wApYv8xKSD/MSkg/96UMf//vVr/3pQx/8Vz
+        IP/FcyD/rFoQ/5RKAP+USgD/lEoA/5RKAP+sWhD/xXMg/8VzIP/elDH/3pQx//+9Wv/elDH/MSkg/zEp
+        IP8xKSD/ACli/wApvf8AYfb/AGH2/wBh9v8AYfb/ACm9/wApYv8xKSD/MSkg/zEpIP/elDH//71a/96U
+        Mf/elDH/xXMg/8VzIP+sWhD/lEoA/5RKAP+USgD/lEoA/6xaEP+sWhD/xXMg/8VzIP/elDH/3pQx//+9
+        Wv//vVr/lEoA/zEpIP8xKSD/MSkg/zEpIP8xKSD/MSkg/zEpIP8xKSD/MSkg/zEpIP+USgD//71a//+9
+        Wv/elDH/3pQx/8VzIP/FcyD/rFoQ/6xaEP+USgD/lEoA/5RKAP+USgD/rFoQ/6xaEP+sWhD/xXMg/8Vz
+        IP/elDH/3pQx/96UMf//vVr//71a/5RKAP8xKSD/MSkg/zEpIP8xKSD/MSkg/zEpIP+USgD//71a//+9
+        Wv/elDH/3pQx/96UMf/FcyD/xXMg/6xaEP+sWhD/rFoQ/5RKAP+USgD/lEoA/5RKAP+sWhD/rFoQ/6xa
+        EP+sWhD/xXMg/8VzIP/FcyD/3pQx/96UMf/elDH//71a//+9Wv//vVr//71a//+9Wv//vVr//71a//+9
+        Wv/elDH/3pQx/96UMf/FcyD/xXMg/8VzIP+sWhD/rFoQ/6xaEP+sWhD/lEoA/5RKAP+USgD/lEoA/6xa
+        EP+sWhD/rFoQ/6xaEP+sWhD/xXMg/8VzIP/FcyD/xXMg/96UMf/elDH/3pQx/96UMf/elDH/3pQx/96U
+        Mf/elDH/3pQx/96UMf/FcyD/xXMg/8VzIP/FcyD/rFoQ/6xaEP+sWhD/rFoQ/6xaEP+USgD/lEoA/5RK
+        AP+USgD/rFoQ/6xaEP+sWhD/rFoQ/6xaEP+sWhD/rFoQ/6xaEP/FcyD/xXMg/8VzIP/FcyD/xXMg/8Vz
+        IP/FcyD/xXMg/8VzIP/FcyD/xXMg/8VzIP+sWhD/rFoQ/6xaEP+sWhD/rFoQ/6xaEP+sWhD/rFoQ/5RK
+        AP+USgD/lEoA/5RKAP+USgD/lEoA/5RKAP+USgD/lEoA/5RKAP+USgD/lEoA/5RKAP+USgD/lEoA/5RK
+        AP+USgD/lEoA/5RKAP+USgD/lEoA/5RKAP+USgD/lEoA/5RKAP+USgD/lEoA/5RKAP+USgD/lEoA/5RK
+        AP+USgD/lEoA/5RKAP//////lEoA/5RKAP+USgD/lEoA/5RKAP+USgD/lEoA/5RKAP+USgD/lEoA/5RK
+        AP+USgD/lEoA/5RKAP+USgD/lEoA/5RKAP+USgD/lEoA/5RKAP+USgD/lEoA/5RKAP+USgD/lEoA/5RK
+        AP+USgD/lEoA/5RKAP+USgD//////wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+</value>
+  </data>
+</root>

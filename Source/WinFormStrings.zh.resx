@@ -1,0 +1,411 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="about" xml:space="preserve">
+    <value>关于</value>
+  </data>
+  <data name="building" xml:space="preserve">
+    <value>建筑</value>
+  </data>
+  <data name="buildingsFile" xml:space="preserve">
+    <value>建筑文件 (*.bld)|*.bld</value>
+  </data>
+  <data name="diamond" xml:space="preserve">
+    <value>游戏:精灵宝可梦 钻石</value>
+  </data>
+  <data name="embeddedTextures" xml:space="preserve">
+    <value>嵌入式贴图被从模型自动删除</value>
+  </data>
+  <data name="eventList" xml:space="preserve">
+    <value>事件</value>
+  </data>
+  <data name="exportBuildings" xml:space="preserve">
+    <value>导出建筑段为...</value>
+  </data>
+  <data name="exportModel" xml:space="preserve">
+    <value>导出模型段为...</value>
+  </data>
+  <data name="exportModelBld" xml:space="preserve">
+    <value>导出模型为...</value>
+  </data>
+  <data name="exportMove" xml:space="preserve">
+    <value>导出移动许可段为...</value>
+  </data>
+  <data name="exportTerrain" xml:space="preserve">
+    <value>导出地形段为...</value>
+  </data>
+  <data name="exportTileset" xml:space="preserve">
+    <value>导出地形设置为...</value>
+  </data>
+  <data name="extractPackage" xml:space="preserve">
+    <value>提取包中...</value>
+  </data>
+  <data name="fra" xml:space="preserve">
+    <value>(法)</value>
+  </data>
+  <data name="furniture" xml:space="preserve">
+    <value>家具</value>
+  </data>
+  <data name="ger" xml:space="preserve">
+    <value>(德)</value>
+  </data>
+  <data name="headersFound" xml:space="preserve">
+    <value>地图头部发现: </value>
+  </data>
+  <data name="heartgold" xml:space="preserve">
+    <value>游戏:精灵宝可梦 心金</value>
+  </data>
+  <data name="importBuildings" xml:space="preserve">
+    <value>请选择一个需要导入的建筑文件</value>
+  </data>
+  <data name="importModel" xml:space="preserve">
+    <value>请选择一个需要导入的模型文件</value>
+  </data>
+  <data name="importModelFile" xml:space="preserve">
+    <value>任天堂DS模型文件 (*.nsbmd)|*.nsbmd</value>
+  </data>
+  <data name="importMove" xml:space="preserve">
+    <value>请选择一个需要导入的地图设置文件</value>
+  </data>
+  <data name="importTerrain" xml:space="preserve">
+    <value>请选择一个需要导入的运动许可文件</value>
+  </data>
+  <data name="importTileset" xml:space="preserve">
+    <value>导入地图设置...</value>
+  </data>
+  <data name="invalidFile" xml:space="preserve">
+    <value>文件无效.操作终止</value>
+  </data>
+  <data name="ita" xml:space="preserve">
+    <value>(意)</value>
+  </data>
+  <data name="jap" xml:space="preserve">
+    <value>(中/日)</value>
+  </data>
+  <data name="kor" xml:space="preserve">
+    <value>(韩)</value>
+  </data>
+  <data name="loadingHeaders" xml:space="preserve">
+    <value>读取地图头部中...</value>
+  </data>
+  <data name="loadingROM" xml:space="preserve">
+    <value>读取ROM中...</value>
+  </data>
+  <data name="mapSaved" xml:space="preserve">
+    <value>地图成功保存</value>
+  </data>
+  <data name="matrix" xml:space="preserve">
+    <value>矩阵</value>
+  </data>
+  <data name="matrixSaved" xml:space="preserve">
+    <value>地图矩阵成功保存</value>
+  </data>
+  <data name="modelFile" xml:space="preserve">
+    <value>任天堂DS 模型文件 (*.nsbmd)|*.nsbmd|Wavefront OBJ Model files (*.obj)|*.obj</value>
+  </data>
+  <data name="moveFile" xml:space="preserve">
+    <value>运动许可文件 (*.per)|*.per</value>
+  </data>
+  <data name="ndsROM" xml:space="preserve">
+    <value>任天堂DS ROM文件 (*.nds)|*.nds</value>
+  </data>
+  <data name="overworld" xml:space="preserve">
+    <value>行走图</value>
+  </data>
+  <data name="pearl" xml:space="preserve">
+    <value>游戏:精灵宝可梦 珍珠</value>
+  </data>
+  <data name="platinum" xml:space="preserve">
+    <value>游戏:精灵宝可梦 白金</value>
+  </data>
+  <data name="readingMap" xml:space="preserve">
+    <value>读取地图数据中...</value>
+  </data>
+  <data name="ready" xml:space="preserve">
+    <value>准备就绪</value>
+  </data>
+  <data name="romSaveTitle" xml:space="preserve">
+    <value>保存现状游戏为...</value>
+  </data>
+  <data name="savingROM" xml:space="preserve">
+    <value>保存ROM中...</value>
+  </data>
+  <data name="selectModel" xml:space="preserve">
+    <value>请选择要导入的模型文件</value>
+  </data>
+  <data name="selectROM" xml:space="preserve">
+    <value>请选择一个支持的第四代或第五代ROM</value>
+  </data>
+  <data name="soulsilver" xml:space="preserve">
+    <value>游戏:精灵宝可梦 魂银</value>
+  </data>
+  <data name="spa" xml:space="preserve">
+    <value>(西)</value>
+  </data>
+  <data name="weather" xml:space="preserve">
+    <value>天气</value>
+  </data>
+  <data name="camera" xml:space="preserve">
+    <value>镜头</value>
+  </data>
+  <data name="nameStyle" xml:space="preserve">
+    <value>名称样式</value>
+  </data>
+  <data name="flags" xml:space="preserve">
+    <value>标志</value>
+  </data>
+  <data name="nameFrame" xml:space="preserve">
+    <value>名称框架</value>
+  </data>
+  <data name="events" xml:space="preserve">
+    <value>事件</value>
+  </data>
+  <data name="name" xml:space="preserve">
+    <value>名称</value>
+  </data>
+  <data name="followMode" xml:space="preserve">
+    <value>跟随模式</value>
+  </data>
+  <data name="writingHeaders" xml:space="preserve">
+    <value>写入头部中...</value>
+  </data>
+  <data name="headersSaved" xml:space="preserve">
+    <value>头部成功保存</value>
+  </data>
+  <data name="readingMatrix" xml:space="preserve">
+    <value>读取矩阵中...</value>
+  </data>
+  <data name="mapFiles" xml:space="preserve">
+    <value>地图文件</value>
+  </data>
+  <data name="mapHeaders" xml:space="preserve">
+    <value>地图头部</value>
+  </data>
+  <data name="sureQuit" xml:space="preserve">
+    <value>你确定要退出吗?未保存的ROM将丢失.</value>
+  </data>
+  <data name="terrainFile" xml:space="preserve">
+    <value>地形文件 (*.bdhc)|*.bdhc</value>
+  </data>
+  <data name="text" xml:space="preserve">
+    <value>文本</value>
+  </data>
+  <data name="tileset" xml:space="preserve">
+    <value>地图设置</value>
+  </data>
+  <data name="tilesetError" xml:space="preserve">
+    <value>不是有效的地形设置文件</value>
+  </data>
+  <data name="tilesetFile" xml:space="preserve">
+    <value>任天堂DS 地形设置文件 (*.nsbtx)|*.nsbtx</value>
+  </data>
+  <data name="trigger" xml:space="preserve">
+    <value>触发器</value>
+  </data>
+  <data name="unsupported" xml:space="preserve">
+    <value>不支持的ROM</value>
+  </data>
+  <data name="untextured" xml:space="preserve">
+    <value>无纹理</value>
+  </data>
+  <data name="usa" xml:space="preserve">
+    <value>(美/英)</value>
+  </data>
+  <data name="value255" xml:space="preserve">
+    <value>值必须是一个介于0与255之间的整数</value>
+  </data>
+  <data name="value65535" xml:space="preserve">
+    <value>值必须是一个介于0与65535之间的整数</value>
+  </data>
+  <data name="valueFF" xml:space="preserve">
+    <value>值必须是一个介于0与FF之间的十六进制数值</value>
+  </data>
+  <data name="warning" xml:space="preserve">
+    <value>警告</value>
+  </data>
+  <data name="warp" xml:space="preserve">
+    <value>经线</value>
+  </data>
+  <data name="wildPokemon" xml:space="preserve">
+    <value>野生宝可梦</value>
+  </data>
+  <data name="writingMatrix" xml:space="preserve">
+    <value>编辑地图矩阵中...</value>
+  </data>
+  <data name="internalTextures" xml:space="preserve">
+    <value>嵌入式贴图</value>
+  </data>
+  <data name="script" xml:space="preserve">
+    <value>脚本</value>
+  </data>
+  <data name="exportSSEQ" xml:space="preserve">
+    <value>导出序列文件为...</value>
+  </data>
+  <data name="sseqFilter" xml:space="preserve">
+    <value>NITRO 作家序列文件 (*.sseq)|*.sseq</value>
+  </data>
+  <data name="black" xml:space="preserve">
+    <value>游戏:精灵宝可梦 黑</value>
+  </data>
+  <data name="white" xml:space="preserve">
+    <value>游戏:精灵宝可梦 白</value>
+  </data>
+  <data name="black2" xml:space="preserve">
+    <value>游戏:精灵宝可梦 黑2</value>
+  </data>
+  <data name="white2" xml:space="preserve">
+    <value>游戏:精灵宝可梦 白2</value>
+  </data>
+  <data name="black2b" xml:space="preserve">
+    <value>Black 2</value>
+  </data>
+  <data name="blackb" xml:space="preserve">
+    <value>Black</value>
+  </data>
+  <data name="diamondb" xml:space="preserve">
+    <value>Diamond</value>
+  </data>
+  <data name="heartgoldb" xml:space="preserve">
+    <value>HeartGold</value>
+  </data>
+  <data name="pearlb" xml:space="preserve">
+    <value>Pearl</value>
+  </data>
+  <data name="platinumb" xml:space="preserve">
+    <value>Platinum</value>
+  </data>
+  <data name="soulsilverb" xml:space="preserve">
+    <value>SoulSilver</value>
+  </data>
+  <data name="white2b" xml:space="preserve">
+    <value>White 2</value>
+  </data>
+  <data name="whiteb" xml:space="preserve">
+    <value>White</value>
+  </data>
+  <data name="lastROM" xml:space="preserve">
+    <value>已检测到此ROM的提取数据，需要加载它而不是再次提取吗？</value>
+  </data>
+  <data name="areaDataList" xml:space="preserve">
+    <value>Area Data </value>
+  </data>
+  <data name="buildingPackList" xml:space="preserve">
+    <value>Building Pack </value>
+  </data>
+</root>

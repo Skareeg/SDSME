@@ -1,0 +1,750 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{68779997-AF58-4F38-BADB-22D1ECAEB722}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>WindowsFormsApplication1</RootNamespace>
+    <AssemblyName>SDSME</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.7.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <NoStdLib>false</NoStdLib>
+    <DocumentationFile>
+    </DocumentationFile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <NoStdLib>false</NoStdLib>
+    <DocumentationFile>
+    </DocumentationFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>WindowsFormsApplication1.Program</StartupObject>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>1015i.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup />
+  <PropertyGroup>
+    <NoWin32Manifest>true</NoWin32Manifest>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="HelixToolkit, Version=2011.10.1.0, Culture=neutral, PublicKeyToken=52aa3500039caf0d, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\..\Program Files (x86)\Pokemon Esmeralda\NDS\Tools\MKDS Source\bin\Debug\HelixToolkit.dll</HintPath>
+    </Reference>
+    <Reference Include="OpenTK, Version=1.0.0.0, Culture=neutral, PublicKeyToken=bad199fe84eb3df4, processorArchitecture=MSIL" />
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xaml" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="Tao.OpenGl, Version=2.1.0.12, Culture=neutral, PublicKeyToken=1ca010269a4501ef, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\..\Program Files (x86)\Pokemon Esmeralda\NDS\Tools\PG4Map Mod\build\Tao.OpenGl.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Tao.Platform.Windows, Version=1.0.0.5, Culture=neutral, PublicKeyToken=701104b2da67a104, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\..\Program Files (x86)\Pokemon Esmeralda\NDS\Tools\PG4Map Mod\build\Tao.Platform.Windows.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="WindowsBase" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AB.cs" />
+    <Compile Include="Form10 3D Editor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form10 3D Editor.Designer.cs">
+      <DependentUpon>Form10 3D Editor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form6_2 Building List.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form6_2 Building List.Designer.cs">
+      <DependentUpon>Form6_2 Building List.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form2 Building Editor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form2 Building Editor.Designer.cs">
+      <DependentUpon>Form2 Building Editor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form3 Trainer Editor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form3 Trainer Editor.Designer.cs">
+      <DependentUpon>Form3 Trainer Editor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form3_2 Trainer Class Editor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form3_2 Trainer Class Editor.Designer.cs">
+      <DependentUpon>Form3_2 Trainer Class Editor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form4 Flag Editor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form4 Flag Editor.Designer.cs">
+      <DependentUpon>Form4 Flag Editor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form4_2 Name Editor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form4_2 Name Editor.Designer.cs">
+      <DependentUpon>Form4_2 Name Editor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form5 Event Editor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form5 Event Editor.Designer.cs">
+      <DependentUpon>Form5 Event Editor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form6 Building List.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form6 Building List.Designer.cs">
+      <DependentUpon>Form6 Building List.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form7 Matrix Viewer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form7 Matrix Viewer.Designer.cs">
+      <DependentUpon>Form7 Matrix Viewer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form8 Sound List.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form8 Sound List.Designer.cs">
+      <DependentUpon>Form8 Sound List.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form9 Wild Editor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form9 Wild Editor.Designer.cs">
+      <DependentUpon>Form9 Wild Editor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LibNDSFormats\bytearrayoutputstream.cs" />
+    <Compile Include="LibNDSFormats\convertir.cs" />
+    <Compile Include="LibNDSFormats\EndianBinaryReader.cs" />
+    <Compile Include="LibNDSFormats\Export3DTools\Face.cs" />
+    <Compile Include="LibNDSFormats\Export3DTools\Group.cs" />
+    <Compile Include="LibNDSFormats\Export3DTools\OBJWriter.cs" />
+    <Compile Include="LibNDSFormats\Export3DTools\Polygon.cs" />
+    <Compile Include="LibNDSFormats\Export3DTools\PolygonType.cs" />
+    <Compile Include="LibNDSFormats\Export3DTools\Quad.cs" />
+    <Compile Include="LibNDSFormats\Export3DTools\QuadStrip.cs" />
+    <Compile Include="LibNDSFormats\Export3DTools\Triangle.cs" />
+    <Compile Include="LibNDSFormats\Export3DTools\TriangleStrip.cs" />
+    <Compile Include="LibNDSFormats\HelixToolkit\ObjExporter.cs" />
+    <Compile Include="LibNDSFormats\Helper.cs" />
+    <Compile Include="LibNDSFormats\nclr_e.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LibNDSFormats\NSBCA.cs" />
+    <Compile Include="LibNDSFormats\NSBCA\NsbcaLoader.cs" />
+    <Compile Include="LibNDSFormats\NSBMD\MTX44.cs" />
+    <Compile Include="LibNDSFormats\NSBMD\Nsbmd.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="LibNDSFormats\NSBMD\NsbmdAnimation.cs" />
+    <Compile Include="LibNDSFormats\NSBMD\NsbmdGlRenderer.cs" />
+    <Compile Include="LibNDSFormats\NSBMD\NsbmdLoader.cs" />
+    <Compile Include="LibNDSFormats\NSBMD\NsbmdMaterial.cs" />
+    <Compile Include="LibNDSFormats\NSBMD\NsbmdModel.cs" />
+    <Compile Include="LibNDSFormats\NSBMD\NsbmdObject.cs" />
+    <Compile Include="LibNDSFormats\NSBMD\NSBMDPalette.cs" />
+    <Compile Include="LibNDSFormats\NSBMD\NsbmdPolygon.cs" />
+    <Compile Include="LibNDSFormats\NSBMD\NSBMDTexture.cs" />
+    <Compile Include="LibNDSFormats\NSBTA.cs" />
+    <Compile Include="LibNDSFormats\NSBTP.cs" />
+    <Compile Include="LibNDSFormats\NSBTX\bytearrayinputstream.cs" />
+    <Compile Include="LibNDSFormats\NSBTX\directory.cs" />
+    <Compile Include="LibNDSFormats\NSBTX\externalfilesystemsource.cs" />
+    <Compile Include="LibNDSFormats\NSBTX\File.cs" />
+    <Compile Include="LibNDSFormats\NSBTX\Filepallete.cs" />
+    <Compile Include="LibNDSFormats\NSBTX\filesystem2.cs" />
+    <Compile Include="LibNDSFormats\NSBTX\filesystemsource.cs" />
+    <Compile Include="LibNDSFormats\NSBTX\image3d.cs" />
+    <Compile Include="LibNDSFormats\NSBTX\image3dformat5.cs" />
+    <Compile Include="LibNDSFormats\NSBTX\imageindexer.cs" />
+    <Compile Include="LibNDSFormats\NSBTX\imagetexeler.cs" />
+    <Compile Include="LibNDSFormats\NSBTX\imagetiler.cs" />
+    <Compile Include="LibNDSFormats\NSBTX\inlinefile.cs" />
+    <Compile Include="LibNDSFormats\NSBTX\nsbmetileset.cs" />
+    <Compile Include="LibNDSFormats\NSBTX\nsbtx.cs" />
+    <Compile Include="LibNDSFormats\NSBTX\NsbtxLoader.cs" />
+    <Compile Include="LibNDSFormats\NSBTX\palettedimage.cs" />
+    <Compile Include="LibNDSFormats\NSBTX\pallete2.cs" />
+    <Compile Include="LibNDSFormats\NSBTX\pixelpalletedimage.cs" />
+    <Compile Include="LibNDSFormats\NSBTX\Rom.cs" />
+    <Compile Include="LibNDSFormats\StreamExt.cs" />
+    <Compile Include="LibNDSFormats\Utils.cs" />
+    <Compile Include="Narc.cs" />
+    <Compile Include="Form1 Main Window.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1 Main Window.Designer.cs">
+      <DependentUpon>Form1 Main Window.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Resources\ScriptNamesWGS.Designer.cs">
+      <DependentUpon>ScriptNamesWGS.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="Resources\MovementNamesW.Designer.cs">
+      <DependentUpon>MovementNamesW.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="Resources\ScriptNamesW.Designer.cs">
+      <DependentUpon>ScriptNamesW.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="Resources\ScriptsV\ScriptNamesB2W2J.Designer.cs">
+      <DependentUpon>ScriptNamesB2W2J.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="Resources\ScriptsV\ScriptsB2W2J.Designer.cs">
+      <DependentUpon>ScriptsB2W2J.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="Resources\ScriptsV\ScriptNamesB2W2.Designer.cs">
+      <DependentUpon>ScriptNamesB2W2.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="Resources\ScriptsV\ScriptsB2W2.Designer.cs">
+      <DependentUpon>ScriptsB2W2.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="Resources\ScriptsV\ScriptNamesWBWJ.Designer.cs">
+      <DependentUpon>ScriptNamesWBWJ.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="Resources\ScriptsV\ScriptNamesWBW.Designer.cs">
+      <DependentUpon>ScriptNamesWBW.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="Resources\ScriptsV\ScriptNamesBWJ.Designer.cs">
+      <DependentUpon>ScriptNamesBWJ.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="Resources\ScriptsV\ScriptNamesBW.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ScriptNamesBW.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Resources\ScriptsV\ScriptsBW.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ScriptsBW.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Resources\ScriptsGS.Designer.cs">
+      <DependentUpon>ScriptsGS.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="Resources\ScriptNamesGS.Designer.cs">
+      <DependentUpon>ScriptNamesGS.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="Resources\MovementNames.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>MovementNames.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Resources\readText.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>readText.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Resources\Scripts.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Scripts.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Resources\ScriptsV\ScriptsBWJ.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ScriptsBWJ.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Resources\writeText.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>writeText.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Resources\ScriptNames.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ScriptNames.resx</DependentUpon>
+    </Compile>
+    <Compile Include="SPK.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SPK.Designer.cs">
+      <DependentUpon>SPK.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WinFormStrings.de.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>WinFormStrings.de.resx</DependentUpon>
+    </Compile>
+    <Compile Include="WinFormStrings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>WinFormStrings.resx</DependentUpon>
+    </Compile>
+    <Compile Include="WinFormStrings.es.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>WinFormStrings.es.resx</DependentUpon>
+    </Compile>
+    <Compile Include="WinFormStrings.fr.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>WinFormStrings.fr.resx</DependentUpon>
+    </Compile>
+    <Compile Include="WinFormStrings.it.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>WinFormStrings.it.resx</DependentUpon>
+    </Compile>
+    <Compile Include="WinFormStrings.zh.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>WinFormStrings.zh.resx</DependentUpon>
+    </Compile>
+    <Content Include="1015i.ico" />
+    <EmbeddedResource Include="Form10 3D Editor.resx">
+      <DependentUpon>Form10 3D Editor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form4_2 Name Editor.es.resx">
+      <DependentUpon>Form4_2 Name Editor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form4_2 Name Editor.fr.resx">
+      <DependentUpon>Form4_2 Name Editor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form4_2 Name Editor.it.resx">
+      <DependentUpon>Form4_2 Name Editor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form4_2 Name Editor.zh.resx">
+      <DependentUpon>Form4_2 Name Editor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form5 Event Editor.es.resx">
+      <DependentUpon>Form5 Event Editor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form5 Event Editor.it.resx">
+      <DependentUpon>Form5 Event Editor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form6_2 Building List.de.resx">
+      <DependentUpon>Form6_2 Building List.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form6_2 Building List.es.resx">
+      <DependentUpon>Form6_2 Building List.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form6_2 Building List.fr.resx">
+      <DependentUpon>Form6_2 Building List.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form6_2 Building List.it.resx">
+      <DependentUpon>Form6_2 Building List.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form6_2 Building List.resx">
+      <DependentUpon>Form6_2 Building List.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form6_2 Building List.zh.resx">
+      <DependentUpon>Form6_2 Building List.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1 Main Window.de.resx">
+      <DependentUpon>Form1 Main Window.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1 Main Window.es.resx">
+      <DependentUpon>Form1 Main Window.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1 Main Window.fr.resx">
+      <DependentUpon>Form1 Main Window.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1 Main Window.it.resx">
+      <DependentUpon>Form1 Main Window.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1 Main Window.resx">
+      <DependentUpon>Form1 Main Window.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1 Main Window.zh.resx">
+      <DependentUpon>Form1 Main Window.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form2 Building Editor.de.resx">
+      <DependentUpon>Form2 Building Editor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form2 Building Editor.es.resx">
+      <DependentUpon>Form2 Building Editor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form2 Building Editor.fr.resx">
+      <DependentUpon>Form2 Building Editor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form2 Building Editor.it.resx">
+      <DependentUpon>Form2 Building Editor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form2 Building Editor.resx">
+      <DependentUpon>Form2 Building Editor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form2 Building Editor.zh.resx">
+      <DependentUpon>Form2 Building Editor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form3 Trainer Editor.de.resx">
+      <DependentUpon>Form3 Trainer Editor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form3 Trainer Editor.es.resx">
+      <DependentUpon>Form3 Trainer Editor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form3 Trainer Editor.fr.resx">
+      <DependentUpon>Form3 Trainer Editor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form3 Trainer Editor.it.resx">
+      <DependentUpon>Form3 Trainer Editor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form3 Trainer Editor.resx">
+      <DependentUpon>Form3 Trainer Editor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form3 Trainer Editor.zh.resx">
+      <DependentUpon>Form3 Trainer Editor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form3_2 Trainer Class Editor.de.resx">
+      <DependentUpon>Form3_2 Trainer Class Editor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form3_2 Trainer Class Editor.es.resx">
+      <DependentUpon>Form3_2 Trainer Class Editor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form3_2 Trainer Class Editor.fr.resx">
+      <DependentUpon>Form3_2 Trainer Class Editor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form3_2 Trainer Class Editor.it.resx">
+      <DependentUpon>Form3_2 Trainer Class Editor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form3_2 Trainer Class Editor.resx">
+      <DependentUpon>Form3_2 Trainer Class Editor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form3_2 Trainer Class Editor.zh.resx">
+      <DependentUpon>Form3_2 Trainer Class Editor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form4 Flag Editor.de.resx">
+      <DependentUpon>Form4 Flag Editor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form4 Flag Editor.es.resx">
+      <DependentUpon>Form4 Flag Editor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form4 Flag Editor.fr.resx">
+      <DependentUpon>Form4 Flag Editor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form4 Flag Editor.it.resx">
+      <DependentUpon>Form4 Flag Editor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form4 Flag Editor.resx">
+      <DependentUpon>Form4 Flag Editor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form4 Flag Editor.zh.resx">
+      <DependentUpon>Form4 Flag Editor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form4_2 Name Editor.resx">
+      <DependentUpon>Form4_2 Name Editor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form5 Event Editor.de.resx">
+      <DependentUpon>Form5 Event Editor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form5 Event Editor.fr.resx">
+      <DependentUpon>Form5 Event Editor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form5 Event Editor.resx">
+      <DependentUpon>Form5 Event Editor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form5 Event Editor.zh.resx">
+      <DependentUpon>Form5 Event Editor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form6 Building List.de.resx">
+      <DependentUpon>Form6 Building List.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form6 Building List.es.resx">
+      <DependentUpon>Form6 Building List.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form6 Building List.fr.resx">
+      <DependentUpon>Form6 Building List.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form6 Building List.it.resx">
+      <DependentUpon>Form6 Building List.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form6 Building List.resx">
+      <DependentUpon>Form6 Building List.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form6 Building List.zh.resx">
+      <DependentUpon>Form6 Building List.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form7 Matrix Viewer.resx">
+      <DependentUpon>Form7 Matrix Viewer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form8 Sound List.es.resx">
+      <DependentUpon>Form8 Sound List.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form8 Sound List.fr.resx">
+      <DependentUpon>Form8 Sound List.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form8 Sound List.it.resx">
+      <DependentUpon>Form8 Sound List.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form8 Sound List.resx">
+      <DependentUpon>Form8 Sound List.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form9 Wild Editor.de.resx">
+      <DependentUpon>Form9 Wild Editor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form9 Wild Editor.es.resx">
+      <DependentUpon>Form9 Wild Editor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form9 Wild Editor.fr.resx">
+      <DependentUpon>Form9 Wild Editor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form9 Wild Editor.it.resx">
+      <DependentUpon>Form9 Wild Editor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form9 Wild Editor.resx">
+      <DependentUpon>Form9 Wild Editor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form9 Wild Editor.zh.resx">
+      <DependentUpon>Form9 Wild Editor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Content Include="Changelog.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\blz.exe">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <EmbeddedResource Include="Resources\ScriptNamesWGS.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>ScriptNamesWGS.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\MovementNamesW.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>MovementNamesW.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\ScriptNamesW.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>ScriptNamesW.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\ScriptsV\ScriptNamesB2W2J.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>ScriptNamesB2W2J.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\ScriptsV\ScriptsB2W2J.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>ScriptsB2W2J.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\ScriptsV\ScriptNamesB2W2.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>ScriptNamesB2W2.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\ScriptsV\ScriptsB2W2.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>ScriptsB2W2.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\ScriptsV\ScriptNamesWBWJ.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>ScriptNamesWBWJ.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\ScriptsV\ScriptNamesWBW.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>ScriptNamesWBW.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\ScriptsV\ScriptNamesBWJ.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>ScriptNamesBWJ.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\ScriptsV\ScriptsBWJ.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>ScriptsBWJ.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\ScriptsV\ScriptNamesBW.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>ScriptNamesBW.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\ScriptsV\ScriptsBW.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>ScriptsBW.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\ScriptsGS.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>ScriptsGS.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\ScriptNamesGS.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>ScriptNamesGS.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\MovementNames.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>MovementNames.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\readText.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>readText.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\Scripts.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Scripts.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\writeText.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>writeText.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\ScriptNames.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>ScriptNames.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SPK.resx">
+      <DependentUpon>SPK.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WinFormStrings.zh.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>WinFormStrings.zh.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WinFormStrings.es.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>WinFormStrings.es.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WinFormStrings.fr.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>WinFormStrings.fr.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WinFormStrings.de.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>WinFormStrings.de.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WinFormStrings.it.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>WinFormStrings.it.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WinFormStrings.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>WinFormStrings.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <None Include="app.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Data\ColorTable.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\ColorTableBW.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\ndstool.exe">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.0,Profile=Client">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4 Client Profile %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
