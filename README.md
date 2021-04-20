@@ -1,3 +1,7 @@
+# This is not my code!
+
+The guy named "Spiky" down below wrote this, but the fork I forked off of disappeared, leaving this mess.
+
 # SDSME
 Source code from Spiky's DS Map Editor
 
